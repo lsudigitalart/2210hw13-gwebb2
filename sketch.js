@@ -16,8 +16,7 @@ function preload(){
   img3 = loadImage("pear.png");
   img4 = loadImage("orange.png");
   img5 = loadImage("grapes.png");
-
-  //img6 = loadImage("basket.png");
+  img6 = loadImage("basket.png");
 
 }
 
@@ -1210,7 +1209,7 @@ grapes78.display();
 grapes78.move();
 }
 
-//image(img6, mouseX - 300, 550, 500, 200);
+image(img6, mouseX - 300, 550, 500, 200);
 
 
 }
